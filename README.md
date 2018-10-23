@@ -1,13 +1,13 @@
 # DataArt_Archive
 ## With Ilana
 
-In our time, where data is flooding every computational device (including our brain), we fight for making meaning out of those cold datasets. The numbers are piling-up and we drown in decimal points and boolean phrases. This assignment held an opportuninty to explore and work with an archive or with a story. 
+In our time, where data is flooding every computational device (including our brain), we fight for making meaning out of those cold datasets. The numbers are piling-up and we drown in decimal points and boolean phrases. This assignment held an opportuninty to explore and work with an archive and turn some rocks to find a story. 
 
-In that matter - refugees data(numbers,statistics,geospatial,etc) could sometime feel more common than the refugees themselves. We decided to create an archive that contains the stories, i.e. text about the journey, the turmoils and the salvation. 
+In that matter - refugees data(numbers,statistics,geospatial,etc) could sometime feel more common than the cases themselves. We decided to create an archive that contains the stories, i.e. text about the journey, the turmoils and the salvation. 
 Our aim is to try and find what message is hiding beneath the hood of these stories. And we will try to bring in word-counts to our aid (and back to numbers again).
 
 ## The Concept
-A word-count comparison between two words along the years 2015-2018.
+A word-count comparison between two words from refugee stories, along the years 2015-2018.
 
 ## The process
 In general, we used Python to scrape the text and analyze it, and used Javascript and p5 to create the sketch.
