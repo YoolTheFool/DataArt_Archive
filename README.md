@@ -24,6 +24,6 @@ Then, we used Spacy to do NLP and created a new JSON file with most common nouns
 
 Now, that we had a manageble JSON file to work with, we were able to take it to p5 and represent the comparisson in an interactive way.
 
-All that's left to do is write two words (nouns) and see what the numbers has to say : 
+Write down two words (nouns) and see what the numbers has to say : 
 
 [Refugee words of concern](https://yoolthefool.github.io/DataArt_Archive/)
