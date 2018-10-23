@@ -17,7 +17,7 @@ To create this corpus of stories, we went to the UNHCR (The UN Refugee Agency) w
 
 In a Python script, we used BeautifulSoup library to scrape the Stories webpages and put them in a JSON file of stories divided to years (a 2.3 MB txt file !!)
 
-[Web Scraping - BeautifulSoup](https://github.com/YoolTheFool/DataArt_Archive/blob/master/web_scrape_data_art_json.ipynb)
+[Web Scraping with BeautifulSoup](https://github.com/YoolTheFool/DataArt_Archive/blob/master/web_scrape_data_art_json.ipynb)
 
 Then, we used Spacy to do NLP and created a new JSON file with most common nouns per year, and their word-counts.
 [Word counting with Spacy](https://github.com/YoolTheFool/DataArt_Archive/blob/master/word_count.ipynb)
