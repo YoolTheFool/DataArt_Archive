@@ -12,12 +12,13 @@ A word-count comparison between two words along the years 2015-2018.
 ## The process
 In general, we used Python to scrape the text and analyze it, and used Javascript and p5 to create the sketch.
 
-To create this corpus of stories, we went to the UNHCR (The UN Refugee Agency) website, which holds a lot of data regarding all persons-of-concern on this planet. But for us, we had to find the stories and the text, and scrape it into a txt file or JSON "mold". http://www.unhcr.org/en-us/stories.html
-
+To create this corpus of stories, we went to the UNHCR (The UN Refugee Agency) website, which holds a lot of data regarding all persons-of-concern on this planet. But for us, we had to find the stories and the text, and scrape it into a txt file or JSON "mold". [UNHCR](http://www.unhcr.org/en-us/stories.html)
 
 In a Python script, we used BeautifulSoup library to scrape the Stories webpages and put them in a JSON file of stories divided to years (a 2.3 MB txt file !!)
-Then, we used Spacy to do NLP and created a new JSON file with most common nouns per year, and their word-counts.
+[Web Scraping - BeautifulSoup](https://github.com/YoolTheFool/DataArt_Archive/blob/master/web_scrape_data_art_json.ipynb)
 
+Then, we used Spacy to do NLP and created a new JSON file with most common nouns per year, and their word-counts.
+[Word counting with Spacy](https://github.com/YoolTheFool/DataArt_Archive/blob/master/word_count.ipynb)
 Now, that we had a manageble JSON file to work with, we were able to take it to p5 and represent the comparisson in an interactive way.
 
 All that's left to do is write two words (nouns) and see what the numbers has to say.
