@@ -47,7 +47,7 @@ function wordCount(data) {
 function draw() {
   textAlign(CENTER);
   background(220);
-  textSize(14);
+  textSize(18);
   if (op) {
     if (years['2018'].length > 0) {
       for (var i = 0; i < years['2018'].length; i++) {
@@ -173,7 +173,7 @@ function draw() {
   // stroke(0);
 
   //TEXT YEARS
-  textSize(18);
+  textSize(24);
   fill(0);
   text('2018',wid/5,hei-hei/4);
   text('2017',wid - 3*wid/5,hei-hei/4);
