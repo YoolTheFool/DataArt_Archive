@@ -19,7 +19,7 @@ In a Python script, we used BeautifulSoup library to scrape the Stories webpages
 
 [Web Scraping with BeautifulSoup](https://github.com/YoolTheFool/DataArt_Archive/blob/master/web_scrape_data_art_json.ipynb)
 
-Then, we used Spacy to do NLP and created a new JSON file with most common nouns per year, and their word-counts.
+Then, we used a Python library called Spacy to do NLP and created a new JSON file with most common nouns per year, and their word-counts.
 [Word counting with Spacy](https://github.com/YoolTheFool/DataArt_Archive/blob/master/word_count.ipynb)
 
 Now, that we had a manageble JSON file to work with, we were able to take it to p5 and represent the comparisson in an interactive way.
